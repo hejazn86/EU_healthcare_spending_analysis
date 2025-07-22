@@ -48,3 +48,15 @@ This dashboard allows interactive exploration of:
 ```bash
 streamlit run dashboard.py
 
+```
+
+### Live Dashboard
+
+
+- Compare life expectancy and mortality rates across countries
+- Trend analysis using interactive Streamlit dashboard
+- Filter by country with responsive line charts
+
+
+[Live App](https://eu-healthcare-spending-analysis-dashboard.streamlit.app)
+
