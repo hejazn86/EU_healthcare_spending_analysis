@@ -7,13 +7,13 @@ import plotly.graph_objects as go
 
 
 # ====================== Load Data ======================
-fitted_data = pd.read_csv("C:/Users/39351/github/Eu_healthcare_spending_analysis/data/fitted_data.csv", index_col=0)
-metrics_df = pd.read_csv("C:/Users/39351/github/Eu_healthcare_spending_analysis/reports/model_metrics.csv")
-ols_coefs = pd.read_csv("C:/Users/39351/github/Eu_healthcare_spending_analysis/reports/ols_coefficients.csv")
-glm_coefs = pd.read_csv("C:/Users/39351/github/Eu_healthcare_spending_analysis/reports/glm_coefficients.csv")
-mix_coefs = pd.read_csv("C:/Users/39351/github/Eu_healthcare_spending_analysis/reports/mixedlm_coefficients.csv")
-rand_eff_df = pd.read_csv("C:/Users/39351/github/Eu_healthcare_spending_analysis/reports/rand_eff.csv", index_col=0)
-pred_data = pd.read_csv("C:/Users/39351/github/Eu_healthcare_spending_analysis/reports/pred_data.csv", index_col=0)
+fitted_data = pd.read_csv("data/fitted_data.csv", index_col=0)
+metrics_df = pd.read_csv("reports/model_metrics.csv")
+ols_coefs = pd.read_csv("reports/ols_coefficients.csv")
+glm_coefs = pd.read_csv("reports/glm_coefficients.csv")
+mix_coefs = pd.read_csv("reports/mixedlm_coefficients.csv")
+rand_eff_df = pd.read_csv("reports/rand_eff.csv", index_col=0)
+pred_data = pd.read_csv("reports/pred_data.csv", index_col=0)
 
 
 # ===================== clean the data ==========================
